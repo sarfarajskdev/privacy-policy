@@ -15,7 +15,7 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --text: #f0f0f0;
-        --muted: #bbbbbb;
+        --muted: #756363;
       }
       body {
         background-color: #1a1a1a;
@@ -113,12 +113,13 @@
   <ul>
     <li><strong>Progress:</strong> levels and chapters completed, seals earned, skipped levels, your in-progress attempt, hints remaining, Daily Figure history and streak, and play statistics (such as levels solved and time played)</li>
     <li><strong>Settings:</strong> sound, music, haptics, appearance and similar preferences</li>
-    <li><strong>Ad limits:</strong> simple counters that cap how many ads you see per day</li>
+    <li><strong>Ad limits:</strong> simple counters that cap how many ads and offers you see per day</li>
+    <li><strong>Purchase status:</strong> whether you own Remove Ads, so ads stay off</li>
   </ul>
   <p>This data is not sent to our servers and is not synced to any cloud service by us. It is deleted when you delete the App.</p>
 
   <h2>5. Google Firebase Analytics</h2>
-  <p>We use Google Firebase Analytics to understand how players experience the game, for example which levels are started, completed, or abandoned; where players get stuck; how often hints, skips, and settings are used; and which screens are opened. This helps us balance level difficulty and fix confusing parts of the game.</p>
+  <p>We use Google Firebase Analytics to understand how players experience the game, for example which levels are started, completed, or abandoned; where players get stuck; how often hints, skips, and settings are used; which screens are opened; and how the Remove Ads offer is used (shown, bought, restored, or closed — never your payment details). This helps us balance level difficulty and fix confusing parts of the game.</p>
   <p>Along with these gameplay events, Firebase receives basic technical information: device model, iOS version, app version, language, an anonymous Firebase-generated app instance identifier, and approximate (country/region-level) location derived from your IP address.</p>
   <ul>
     <li>Analytics data is not linked to your name or identity</li>
@@ -146,11 +147,11 @@
     <li><strong>EEA, UK, and Switzerland:</strong> before any ads are requested, the App shows a consent message from Google's User Messaging Platform. You can accept, refuse, or manage the purposes for which your data is used. You can change your choice at any time in the App under <strong>Settings → Privacy choices</strong>.</li>
     <li><strong>United States (state privacy laws):</strong> where required, the App provides an option to opt out of the "sale" or "sharing" of personal information for targeted advertising, also available under <strong>Settings → Privacy choices</strong>.</li>
     <li><strong>Limiting ad tracking on iOS:</strong> you can turn off personalized ads from Apple in <strong>Settings → Privacy &amp; Security → Apple Advertising</strong>, and you can reset or limit identifiers through iOS settings.</li>
-    <li><strong>Removing ads:</strong> you can remove ads by buying the in-app purchase described in Section 9, once it is available.</li>
+    <li><strong>Removing ads:</strong> you can remove banner and between-level ads with the one-time Remove Ads purchase described in Section 9 (Settings → Remove ads).</li>
   </ul>
 
   <h2>9. In-App Purchases (Remove Ads)</h2>
-  <p>Tracewell may offer an optional one-time in-app purchase that removes ads. All purchases are processed by Apple through the App Store using Apple's StoreKit. We never receive your name, Apple ID, or payment card details. The App receives only a confirmation from Apple that the purchase is valid, so it can turn ads off and let you restore the purchase on your other devices. Apple's handling of payment information is governed by Apple's Privacy Policy.</p>
+  <p>Tracewell offers an optional one-time in-app purchase, "Remove Ads", that turns off banner and between-level ads. All purchases are processed by Apple through the App Store using Apple's StoreKit. We never receive your name, Apple ID, or payment card details. The App checks with Apple, on your device, whether you own Remove Ads, so it can turn ads off, keep them off after a reinstall, and let you restore the purchase on your other devices. Apple's handling of payment information is governed by Apple's Privacy Policy.</p>
 
   <h2>10. Apple App Store Analytics</h2>
   <p>When you download Tracewell through the Apple App Store, Apple may collect information as part of its platform operations, governed by Apple's Privacy Policy, not ours. If you have opted into sharing App Analytics with developers in iOS Settings, Apple may share aggregated, anonymized usage and crash statistics with us. You can change this at any time in <strong>Settings → Privacy &amp; Security → Analytics &amp; Improvements</strong>.</p>
